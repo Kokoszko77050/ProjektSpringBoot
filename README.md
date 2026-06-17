@@ -84,24 +84,31 @@ Odpowiedź JSON
 
 ## Struktura projektu
 
-projekt/
-|
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/example/projekt/
-│       │       ├── ProjektApplication.java
-│       │       └── HelloController.java
-│       │
-│       └── resources/
-│           └── application.properties
-│
-├── build.gradle
-├── settings.gradle
-├── gradlew
-├── gradlew.bat
-└── README.md
+Projekt składa się z kilku najważniejszych plików i folderów:
 
+**src/main/java/com/example/projekt/**  
+Zawiera główny kod aplikacji.
+
+**ProjektApplication.java**  
+Klasa startowa aplikacji Spring Boot.
+
+**HelloController.java**  
+Kontroler obsługujący endpoint `/hello`.
+
+**src/main/resources/application.properties**  
+Plik konfiguracyjny aplikacji.
+
+**build.gradle**  
+Plik z konfiguracją Gradle oraz zależnościami projektu.
+
+**settings.gradle**  
+Plik z podstawową konfiguracją projektu.
+
+**gradlew / gradlew.bat**  
+Pliki umożliwiające uruchomienie projektu za pomocą Gradle Wrapper.
+
+**README.md**  
+Plik z opisem zadania i instrukcją uruchomienia.
 ---
 
 ## Uruchomienie lokalne
